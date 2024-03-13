@@ -1,7 +1,7 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
 body{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/website/images/appa.webp);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/appa.webp);
   color:white;
 
 }
@@ -17,7 +17,7 @@ h3{
 
 
 header{
-  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/website/images/appa.webp);
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/appa.webp);
   height: 100vh;
   background-size:cover;
   background-position:center top;
@@ -169,7 +169,7 @@ to {background-position: -180px 0px;}
   
   text-align:justify;
   font-size:20px;
-  background-image: url(/website/images/image.webp);
+  background-image: url(./images/image.webp);
   object-fit: cover;
   padding:100px;
   background-repeat:no-repeat;
@@ -183,7 +183,7 @@ height:100%;
 
 
   .portfolio{
-   background-image: url(/website/images/image.webp);
+   background-image: url(./images/image.webp);
     color: white;
     font-size: 1em;
     font-weight: 400;
@@ -191,7 +191,7 @@ height:100%;
   }
 
 .columns{
-  background-image: url(/website/images/image.webp);
+  background-image: url(./images/image.webp);
   color: white;
     font-size: 1em;
     font-weight: 400;
