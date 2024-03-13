@@ -1,0 +1,499 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/website/images/appa.webp);
+  color:white;
+
+}
+h3{
+  font-family:geneva;
+}
+
+*{
+  margin:0; 
+  padding:0; 
+  font-family: Geneva;
+}
+
+
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/website/images/appa.webp);
+  height: 100vh;
+  background-size:cover;
+  background-position:center top;
+   animation: animate 15s;
+     color:#fff;
+    text-align:center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-size: 12px;
+    font-family: 'Dancing Script', cursive;
+    -webkit-animation: backgroundScroll 10s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; 
+  }
+ul{
+  float:right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px; 
+  border: 2px solid;
+  transition:0.6s ease;
+  margin:5px;
+  }
+
+ul li a:hover{
+  background-color: #fff;
+  color:#000;
+}
+
+ul li.active a{
+  background-color:#fff;
+  color:#000;
+}
+
+.logo img{
+  position:fixed; 
+	top:0; 
+	left:0; 
+  width:60px;
+  height:60px;
+  
+}
+
+.main{
+  max-width:1200px; 
+  margin:auto;
+}
+
+.title{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  
+}
+
+.title{
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 10s steps(30, end),
+    blink-caret .9s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 20% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+
+
+ 
+@-webkit-keyframes backgroundScroll {
+from {background-position: 100 100;}
+to {background-position: -180px 0px;}
+}
+
+@keyframes backgroundScroll {
+from {background-position: 100 100;}
+to {background-position: -180px 0px;}
+
+}
+ */
+.title h1{
+  color:#fff; 
+  font-size:60px;
+  text-align: center;
+}
+
+.title h2{
+  color:#fff;
+}
+
+ .button{
+  position:absolute;
+  top:62%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+/* .btn{
+  border: 1px solid #fff;
+  padding: 10px 30px; 
+  color: #fff; 
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color:#000;
+}
+ */
+
+.titlebelow{
+  position:absolute;
+  
+  font-size:19px;
+  top:55%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color:#CCCCFF;
+  
+}
+
+
+.section1{
+  
+  text-align:justify;
+  font-size:20px;
+  background-image: url(/website/images/image.webp);
+  object-fit: cover;
+  padding:100px;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
+height:100%; 
+  color: #3a1835;
+  
+
+}
+
+
+  .portfolio{
+   background-image: url(/website/images/image.webp);
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+.columns{
+  background-image: url(/website/images/image.webp);
+  color: white;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+.button2{
+  border: 3px solid darkgreen;
+  color: darkgreen; 
+  text-decoration: none;
+  transition: 0.6s ease;
+  background-color: white;
+  
+  float: left;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  margin: 0;
+  
+}
+
+.button2:hover{
+  background-color:white;
+  color:darkgreen;
+  border-width: 2px;
+  border-style: solid;
+  transition: 0.1s background-color linear, 0.1s color linear;
+
+}
+
+.button3{
+  border: 3px solid darkslateblue;
+  color: darkslateblue; 
+  text-decoration: none;
+  transition: 0.6s ease;
+  background-color: white; 
+  float: left; 
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px
+  
+
+  
+}
+
+.button3:hover{
+  background-color:white;
+  color:darkslateblue;
+  border-width: 2px;
+  border-style: solid;
+  transition: 0.1s background-color linear, 0.1s color linear;
+
+}
+
+.button4{
+  border: 3px solid darkslateblue;
+  color: darkslateblue; 
+  text-decoration: none;
+  transition: 0.6s ease;
+  background-color: white;
+  
+  float: left;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px
+  
+}
+
+.button4:hover{
+  background-color:white;
+  color:darkslateblue;
+  border-width: 2px;
+  border-style: solid;
+  transition: 0.1s background-color linear, 0.1s color linear;
+
+}
+
+
+.button7{
+border: 3px solid darkslateblue;
+  color: darkslateblue; 
+  text-decoration: none;
+  transition: 0.6s ease;
+  background-color: white;
+  
+  float: left;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px
+}
+.button7:hover{
+  background-color:white;
+  color:darkslateblue;
+  border-width: 2px;
+  border-style: solid;
+  transition: 0.1s background-color linear, 0.1s color linear;
+
+}
+
+
+.button8{
+  border: 3px solid darkslateblue;
+  color: darkslateblue; 
+  text-decoration: none;
+  transition: 0.6s ease;
+  background-color: white;
+  
+  float: left;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px
+}
+
+
+.button8:hover{
+  background-color:white;
+  color:darkslateblue;
+  border-width: 2px;
+  border-style: solid;
+  transition: 0.1s background-color linear, 0.1s color linear;
+
+}
+
+
+.button9{
+border: 3px solid darkslateblue;
+  color: darkslateblue; 
+  text-decoration: none;
+  transition: 0.6s ease;
+  background-color: white;
+ 
+  
+  float: left;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px
+}
+
+
+.button9:hover{
+  background-color:white;
+  color:darkslateblue;
+  border-width: 2px;
+  border-style: solid;
+  transition: 0.1s background-color linear, 0.1s color linear;
+
+}
+
+
+.button10{
+  border: 3px solid darkslateblue;
+  color: darkslateblue; 
+  text-decoration: none;
+  transition: 0.6s ease;
+  background-color: white;
+  
+  float: left;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px
+}
+
+
+.button10:hover{
+  background-color:white;
+  color:darkslateblue;
+  border-width: 2px;
+  border-style: solid;
+  transition: 0.1s background-color linear, 0.1s color linear;
+
+}
+
+.title1 {
+   margin: 0 auto;
+   width: fit-content;
+}
+.title1 h1{
+  font-size: 65px;
+  font-family: 'ArcadeClassic', sans-serif; 
+  color:#65175A;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+
+.container image{
+  justify-content: flex-start;
+  text-align: right;
+
+  
+}
+
+.image img{
+  margin-top: 2.2em;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height:auto;
+}
+
+.portfolio h1{
+  font-size: 35px;
+  font-family: 'ArcadeClassic', sans-serif;
+  color:white;
+  
+}
+
+.column h1 {
+  font-family: 'ArcadeClassic', sans-serif;
+}
+
+
+
+.columns h1 {
+  font-family: #7CB9E8;
+  color:#7CB9E8;
+  font-family: 'ArcadeClassic', sans-serif;
+}
+
+.columns column center{
+  font-family: 'ArcadeClassic', sans-serif;
+  
+  color: blanchedalmond;
+}
+
+.btn{
+  margin-right: 10px;
+  color:rebeccapurple;
+}
+
+/* .image is-128x128 is-rounded{
+  width:200px:
+  height:1000px;
+}
+
+
+.peckish img{
+  margin:500px;
+} */
+
+
+.image img.is-rounded {
+   
+    width: 250px;
+    height: 250px;
+  border-radius:50%
+}
+
+
+.uplift h2{
+  border-style: solid;
+}
+
+.contact{
+  color:white;
+}
+
+
+footer {
+  background-color:#D8BFD8	;
+}
+
+
+.contact-info h3,
+.social-links h3 {
+  font-size: 18px;
+  margin-bottom: 2px;
+  color: black;
+}
+
+.contact-info p {
+  margin: 1px 0;
+  color:#65175A;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
+}
